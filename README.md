@@ -7,6 +7,7 @@ sorry for the spaghetti code, I had less than an hour to submit this and I proba
 `spaghetti code or not the logic for most of the important sorting algorithms will be here, linear and binary search are pretty basic but the logic for them will also be here`
 
 ## Question
+`I'll update after documenting`
 
 
 ## Score
