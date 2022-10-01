@@ -10,8 +10,9 @@ public class App {
         Insertion insertionSort = new Insertion();
         Quick quickSort = new Quick();
 
-        //searching classes
+        // searching classes
         LinearSearch linearSearch = new LinearSearch();
+        BinarySearch binarySearch = new BinarySearch();
 
         // creating an instance of random class for 10,000 number generation
         Random rand = new Random();
@@ -29,7 +30,7 @@ public class App {
             array[i] = data;
         }
 
-        //selectSort.selectionSort(array); 
+        // selectSort.selectionSort(array);
         mergeSort.mergeSort(array);
         // bubbleSort.bubbleSort(array);
         // insertionSort.insertionSort(array);
@@ -40,7 +41,21 @@ public class App {
         // quickSort.quickSort(array, low, high);
 
         removeDuplicate(array);
-        linearSearch.linearSearch(array, 0);
+
+        // search array
+        // searching 500 data
+        int searchData = 500;
+        int[] searchArray = new int[searchData];
+        for (int i = 0; i < searchArray.length; i++) {
+            int search = rand.nextInt(searchData);
+            searchArray[i] = search;
+        }
+
+        for (int j = 0; j < searchArray.length; j++) {
+            // linearSearch.linearSearch(array, searchArray[j]);
+            binarySearch.binarySearch(array, searchArray[j]);
+        }
+
     }
 
     // this method removes the duplicate data in the array
