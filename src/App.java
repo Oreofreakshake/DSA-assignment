@@ -10,6 +10,9 @@ public class App {
         Insertion insertionSort = new Insertion();
         Quick quickSort = new Quick();
 
+        //searching classes
+        LinearSearch linearSearch = new LinearSearch();
+
         // creating an instance of random class for 10,000 number generation
         Random rand = new Random();
 
@@ -26,8 +29,8 @@ public class App {
             array[i] = data;
         }
 
-        // selectSort.selectionSort(array); 
-        // mergeSort.mergeSort(array);
+        //selectSort.selectionSort(array); 
+        mergeSort.mergeSort(array);
         // bubbleSort.bubbleSort(array);
         // insertionSort.insertionSort(array);
         // removeDuplicate(array);
@@ -37,6 +40,7 @@ public class App {
         // quickSort.quickSort(array, low, high);
 
         removeDuplicate(array);
+        linearSearch.linearSearch(array, 0);
     }
 
     // this method removes the duplicate data in the array
