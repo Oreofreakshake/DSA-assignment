@@ -45,7 +45,7 @@ sorry for the spaghetti code, I had less than an hour to submit this and I proba
 
 ### Binary search
 
--   The fasted out of the two searching algorithms I was asked to implement in this assignment
+-   The fastest out of the two searching algorithms I was asked to implement in this assignment
 -   avg of 500 milisecond faster in 10 searches
 
 ## Sort algorithms
@@ -54,11 +54,11 @@ sorry for the spaghetti code, I had less than an hour to submit this and I proba
 
 ### Linear Sort
 
--   Extremely slow just as the theory suggests O(n) speed
+-   Extremely slow just as the theory suggests O(n) speed as best
 
 ### Bubble Sort
 
--   Not that fast but it is acceptable, with the speed of O(n) although in average it was O(n^2)
+-   Not that fast but it is acceptable, with the average speed of O(n) although in average it was O(n^2)
 
 ### Selection Sort
 
