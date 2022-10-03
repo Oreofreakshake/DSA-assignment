@@ -4,11 +4,11 @@ import java.util.Arrays;
 public class App {
     public static void main(String[] args) throws Exception {
         // sorting classes
-        Selection selectSort = new Selection();
-        Merge mergeSort = new Merge();
-        Bubble bubbleSort = new Bubble();
-        Insertion insertionSort = new Insertion();
-        Quick quickSort = new Quick();
+        Selection selectSort = new Selection(); // 1.5s
+        Merge mergeSort = new Merge(); // 0.5s
+        Bubble bubbleSort = new Bubble();// 0.9s
+        Insertion insertionSort = new Insertion();// 1.2s
+        Quick quickSort = new Quick();// 0.7s
 
         // searching classes
         LinearSearch linearSearch = new LinearSearch();

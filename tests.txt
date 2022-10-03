@@ -1,0 +1,9 @@
+# How I have tested the code    
+## Succeeded code = 100%
+## failed code = 0%
+- I created bunch of data to push into the array, in the data it included 
+    - Integers
+    - Duplicates
+    - Non Integers (Floats, Strings)
+- of course anything other than Integers should not be accepted as a data type in the array thats being used to sort and search so Ive' used int return methods which forces you to use int values
+- the sort algorithm speeds were recoded and commented next to the object class
