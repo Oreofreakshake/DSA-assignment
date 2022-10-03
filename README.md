@@ -74,4 +74,4 @@ sorry for the spaghetti code, I had less than an hour to submit this and I proba
 
 ### Merge Sort
 
--   Fasted out of the given sorting algorithms, giving O(n log n) in both average and worst, 100% will recommend to use this algorithm for sorting
+-   Fastest out of the given sorting algorithms, giving O(n log n) in both average and worst, 100% will recommend to use this algorithm for sorting
