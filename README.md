@@ -58,7 +58,7 @@ sorry for the spaghetti code, I had less than an hour to submit this and I proba
 
 ### Bubble Sort
 
--   Not that fast but it is acceptable, with the average speed of O(n) although in average it was O(n^2)
+-   Not that fast but it is acceptable, with the average speed of O(n) although in some cases it showed O(n^2)
 
 ### Selection Sort
 
